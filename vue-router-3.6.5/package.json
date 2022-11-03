@@ -54,6 +54,7 @@
   ],
   "scripts": {
     "dev": "node examples/server.js",
+    "dev:debug": "rollup -c build/rollup.debug.config.js",
     "dev:dist": "rollup -wm -c build/rollup.dev.config.js",
     "build": "node build/build.js",
     "lint": "eslint src examples test",

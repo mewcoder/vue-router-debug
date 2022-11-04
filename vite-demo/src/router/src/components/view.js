@@ -111,7 +111,6 @@ var View = {
       });
       fillPropsinData(component, data, route, configProps);
     }
-
     return h(component, data, children)
   }
 };

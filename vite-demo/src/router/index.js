@@ -6,7 +6,7 @@ import HomeView from "../views/HomeView.vue";
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "abstract",
   base: import.meta.env.BASE_URL,
   routes: [
     {
